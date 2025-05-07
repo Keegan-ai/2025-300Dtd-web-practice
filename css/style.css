@@ -1,6 +1,8 @@
 section#hero {
+
     min-height:20rem;
-    background-color: black;
+    background-color:  var(--pico-primary-background);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +10,12 @@ section#hero {
 }
 
 section#hero {
-    color: white;
+    color: black;
     font-size: 5rem;
     text-align: center;
 } 
+
+section#likes div{
+    display: flex;
+    gap: 1rem;
+}
